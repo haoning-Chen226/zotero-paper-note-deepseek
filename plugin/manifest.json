@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "论文阅读备注 · DeepSeek",
+  "version": "1.0.0",
+  "description": "为新收藏的论文生成中文 Zotero 子笔记，先用一句话概括任务，再整理方法、实验与资料来源。",
+  "applications": {
+    "zotero": {
+      "id": "paper-note-deepseek@local.invalid",
+      "strict_min_version": "7.0",
+      "strict_max_version": "10.0.*",
+      "update_url": "https://paper-note-deepseek.invalid/updates.json"
+    }
+  }
+}

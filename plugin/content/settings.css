@@ -1,0 +1,37 @@
+.paper-note-deepseek-fields {
+  display: grid;
+  grid-template-columns: max-content minmax(12em, 1fr);
+  gap: 9px 15px;
+  align-items: center;
+}
+
+.paper-note-deepseek-fields input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.paper-note-deepseek-check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 4px 0;
+}
+
+.paper-note-deepseek-info {
+  line-height: 1.5;
+  max-width: 49em;
+}
+
+.paper-note-deepseek-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#paper-note-deepseek-status {
+  min-height: 1.4em;
+}
+
+#paper-note-deepseek-status[data-error] {
+  color: light-dark(#a62121, #ff9090);
+}
